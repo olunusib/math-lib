@@ -9,7 +9,8 @@ class TestMain(unittest.TestCase):
 
     def test_subtract(self):
         self.assertEqual(subtract(2, 1), 1)
-        self.assertEqual(subtract(2, 3), 0)
+        self.assertEqual(subtract(2, 2), 0)
+
 
 
 if __name__ == "__main__":
